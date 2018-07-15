@@ -1,7 +1,7 @@
 {
     "name": "stratum-pool",
-    "version": "0.1.6",
-    "description": "High performance Stratum poolserver in Node.js",
+    "version": "0.1.9",
+    "description": "High performance stratum pool server in Node.js",
     "keywords": [
         "stratum",
         "mining",
@@ -12,23 +12,24 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+    "homepage": "https://github.com/z-nomp/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+        "url": "https://github.com/z-nomp/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "z-nomp developers",
     "contributors": [
-        "vekexasia",
-        "TheSeven"
+        "egyptianbman",
+        "TheSeven",
+        "vekexasia"
     ],
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/joshuayabut/node-stratum-pool.git"
+        "url": "https://github.com/z-nomp/node-stratum-pool.git"
     },
     "dependencies": {
-        "equihashverify": "git+https://github.com/1ds/equihashverify.git",
+        "equihashverify": "git+https://github.com/z-nomp/equihashverify.git",
         "bignum": "*",
         "base58-native": "*",
         "async": "*",
