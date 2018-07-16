@@ -34,7 +34,7 @@
         "base58-native": "*",
         "async": "*",
         "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
-        "bitcoinjs-lib-zcash": "git+https://github.com/c2h2learnstocode/bitcoinjs-lib.git",
+        "bitcoinjs-lib-zcash": "git+https://github.com/karel-3d/bitcoinjs-lib.git",
         "promise": "*"
     },
     "engines": {
