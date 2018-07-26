@@ -29,15 +29,15 @@
         "url": "https://github.com/z-nomp/node-stratum-pool.git"
     },
     "dependencies": {
+        "async": "^2.6.1",
+        "base58-native": "^0.1.4",
+        "bignum": "^0.13.0",
+        "bitcoinjs-lib-zcash": "^3.4.2",
         "equihashverify": "git+https://github.com/z-nomp/equihashverify.git",
-        "bignum": "*",
-        "base58-native": "*",
-        "async": "*",
-        "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
-        "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
-        "promise": "*"
+        "merkle-bitcoin": "^1.0.2",
+        "promise": "^8.0.1"
     },
     "engines": {
-        "node": ">=7"
+        "node": ">=8.11"
     }
 }
