@@ -35,8 +35,10 @@
         "bitcoinjs-lib-zcash": "git+https://github.com/z-nomp/bitcoinjs-lib.git",
         "equihashverify": "git+https://github.com/z-nomp/equihashverify.git",
         "merkle-bitcoin": "^1.0.2",
-        "promise": "^8.0.1"
+        "promise": "^8.0.1",
+        "request": "^2.87"
     },
+    "_note": "request is only included here to force an update from the version required by node-gyp which is required by equihashverify. There is a vulnerability in hapijs/hoek 2.16.3 which is pulled from node-gyp@3",
     "engines": {
         "node": ">=8.11"
     }
