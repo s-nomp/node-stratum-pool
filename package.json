@@ -33,7 +33,7 @@
         "base58-native": "^0.1.4",
         "bignum": "^0.13.0",
         "bitcoinjs-lib-zcash": "git+https://github.com/z-nomp/bitcoinjs-lib.git",
-        "equihashverify": "git+https://github.com/z-nomp/equihashverify.git",
+        "equihashverify": "git+https://github.com/z-nomp/equihashverify.git#feat/sync-with-upstream",
         "merkle-bitcoin": "^1.0.2",
         "promise": "^8.0.1"
     },
