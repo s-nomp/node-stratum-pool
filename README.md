@@ -4,7 +4,7 @@ pools, each with their own daemon and stratum port :)
 #### Notice
 This is a module for Node.js that will do nothing on its own. Unless you're a Node.js developer who would like to
 handle stratum authentication and raw share data then this module will not be of use to you. For a full featured portal
-that uses this module, see [Z-NOMP (Z Node Open Mining Portal)](https://github.com/z-classic/z-nomp). It
+that uses this module, see [s-nomp (Some New Open Mining Portal)](https://github.com/s-nomp/s-nomp). It
 handles payments, website front-end, database layer, mutli-coin/pool support, auto-switching miners between coins/pools,
 etc.. The portal also has an [MPOS](https://github.com/MPOS/php-mpos) compatibility mode so that the it can function as
 a drop-in-replacement for [python-stratum-mining](https://github.com/Crypto-Expert/stratum-mining).
@@ -38,11 +38,13 @@ Features
 * When started with a coin deamon that hasn't finished syncing to the network it shows the blockchain download progress and initializes once synced
 
 #### Hashing algorithms supported:
-* ✓ __Equihash__ (Zclassic, Zcash)
+* ✓ __Equihash 200,9
+* ✓ __Equihash 144,5
+* ✓ __Equihash 192,7
 
 Requirements
 ------------
-* node v7+
+* node v8.11
 * coin daemon (preferably one with a relatively updated API and not some crapcoin :p)
 
 
@@ -52,7 +54,7 @@ Example Usage
 #### Install as a node module by cloning repository
 
 ```bash
-git clone https://github.com/z-classic/node-stratum-pool node_modules/stratum-pool
+git clone https://github.com/s-nomp/node-stratum-pool.git node_modules/stratum-pool
 npm update
 ```
 
