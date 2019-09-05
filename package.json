@@ -1,7 +1,7 @@
 {
     "name": "stratum-pool",
-    "version": "0.1.6",
-    "description": "High performance Stratum poolserver in Node.js",
+    "version": "0.2.0",
+    "description": "High performance stratum pool server in Node.js",
     "keywords": [
         "stratum",
         "mining",
@@ -17,10 +17,11 @@
         "url": "https://github.com/Snowgem/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "s-nomp developers",
     "contributors": [
-        "vekexasia",
-        "TheSeven"
+        "egyptianbman",
+        "TheSeven",
+        "vekexasia"
     ],
     "main": "lib/index.js",
     "repository": {
@@ -28,15 +29,16 @@
         "url": "https://github.com/Snowgem/node-stratum-pool.git"
     },
     "dependencies": {
-        "equihashverify": "git+https://github.com/Snowgem/equihashverify.git",
-        "bignum": "*",
-        "base58-native": "*",
-        "async": "*",
-        "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
-        "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
-        "promise": "*"
+        "async": "^2.6.1",
+        "base58-native": "^0.1.4",
+        "bignum": "^0.13.0",
+        "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
+        "equihashverify": "git+https://github.com/s-nomp/equihashverify.git",
+        "verushash": "git+https://github.com/VerusCoin/verushash-node#e6572f345b8c24e4a1212f6c9eb66c1c400d83e1",
+        "merkle-bitcoin": "^1.0.2",
+        "promise": "^8.0.1"
     },
     "engines": {
-        "node": ">=7"
+        "node": ">=8.11"
     }
 }
