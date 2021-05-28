@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/s-nomp/node-stratum-pool",
+    "homepage": "https://github.com/HorizenOfficial/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/s-nomp/node-stratum-pool/issues"
+        "url": "https://github.com/HorizenOfficial/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "s-nomp developers",
@@ -26,7 +26,7 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/s-nomp/node-stratum-pool.git"
+        "url": "https://github.com/HorizenOfficial/node-stratum-pool.git"
     },
     "dependencies": {
         "async": "^2.6.1",
