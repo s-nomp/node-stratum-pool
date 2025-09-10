@@ -73,7 +73,7 @@ This server was built to be more efficient and easier to setup, maintain and sca
 ### Install as a node module by cloning repository
 
 ```bash
-git clone https://github.com/janos-raul/stratum-pool.git node_modules/stratum-pool
+git clone -b sha256-nomp-node-stratum-pool https://github.com/janos-raul/stratum-pool.git node_modules/stratum-pool
 npm update
 ```
 
