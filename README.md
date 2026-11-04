@@ -89,6 +89,28 @@ var myCoin = {
 };
 ```
 
+#### Current Zcash templates
+
+For current Zcash consensus, set `"daemonCoinbase": true` in the coin
+configuration and configure the daemon's mining reward address before starting
+the pool. Keep the pool's `address` consistent with that address. The default
+legacy transaction builder does not support current Zcash funding rules or
+transaction versions.
+
+In this mode, the pool preserves the daemon's complete coinbase, transaction
+order, Merkle root and block commitment. This delegates funding streams,
+deferred rewards and v5/v6 transaction construction to the daemon, including
+NU6, NU6.1 and NU6.3 rules. Templates must contain `coinbasetxn.data` and
+`coinbasetxn.hash`; subsidy RPC calls and coinbase appending are not used.
+
+Do not configure `rewardRecipients` or `poolHex` in this mode: those overrides
+would invalidate the daemon's commitments and are rejected. Pool fees must be
+handled outside the coinbase. External payment processing remains supported.
+Other coins retain the existing transaction builder unless this mode is enabled.
+
+After installing dependencies, run `npm test` with Node.js 8.11 or newer for
+serialization and RPC-routing checks. These do not establish live consensus acceptance.
+
 If you are using an equihash coin that has founder's rewards, you need to include details about the FR system,
 ```javascript
 var myCoin = {

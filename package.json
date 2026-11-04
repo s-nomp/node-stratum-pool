@@ -25,7 +25,7 @@
     ],
     "main": "lib/index.js",
     "scripts": {
-        "test": "node test/daemon.js && node test/jobManager.js && node test/pool.js"
+        "test": "node test/blockTemplate.js && node test/daemon.js && node test/jobManager.js && node test/pool.js"
     },
     "repository": {
         "type": "git",
