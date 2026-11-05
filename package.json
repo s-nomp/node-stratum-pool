@@ -24,6 +24,9 @@
         "vekexasia"
     ],
     "main": "lib/index.js",
+    "scripts": {
+        "test": "node test/blockTemplate.js && node test/daemon.js && node test/jobManager.js && node test/pool.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/s-nomp/node-stratum-pool.git"
