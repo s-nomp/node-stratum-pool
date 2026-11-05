@@ -44,6 +44,9 @@ Requirements
 * node v8.11
 * coin daemon (preferably one with a relatively updated API and not some crapcoin :p)
 
+The minimum supported `bignum` version is `0.13.1`, which removes the unsafe
+prebuilt-binary download described in [GHSA-7cgc-fjv4-52x6](https://github.com/advisories/GHSA-7cgc-fjv4-52x6).
+
 
 Example Usage
 -------------
